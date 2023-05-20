@@ -1,0 +1,22 @@
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #232425;
+    height: 100vh;
+}
+.wrapper>div {
+    height: 90px;
+    width: 210px;
+    margin-top: 40px;
+
+    /* colors */
+    background-color: #C3C4C5;
+}
